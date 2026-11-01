@@ -1,12 +1,16 @@
-# Webcam-FBT (Name in progress)
+# LimboVR (Name in progress)
 
 This project is a work in progress, not a full working project.
 
-Welcome to my project, Webcam-FBT (name in progress). I am creating this project to make fullbody tracking in VR more accessible.
+Welcome to my project, LimboVR (name in progress). I am creating this project to make fullbody tracking in VR more accessible.
+
+# IMPORTANT ANNOUNCEMENT 10/20/2026:
+
+Hello, everybody (The one person who starred this project). I apologize for the extended hiatus on this project. I have both been working many hours and studying very heavily and also have switched over to Linux as of August (Hence the hiatus in July), which does not want to cooperate with my VR headset. So I can no longer test LimboVR. That being said, I will be installing a new drive with windows on my system soon, solely to work on this, and other VR related projects in the future. I am happy to announce that a large portion of my free time will go to working on my VR projects again. Also, I would like to eventually get a Linux compatible headset so that I can test my software on Linux as well before releasing a broken version to the public. It should have an up and running windows alpha release by Halloween and hopefully a full GUI and compatibility update shortly following. Thank you to anybody who may be following along this project, it means the world to me. Yours truly, BungleBun.
 
 # What does this project do/plan to do?
 
-Webcam-FBT takes the user's webcam feed using opencv and uses mediapipe to map the user's body out with a skeletal rig. Using an advanced google machine learning model it uses pose estimation to smoothly translate the 2 dimensional camera movements into 3d fully tracked body movements. It then uses the tracked position of the mapped skeletal rig and maps it to your in-game virtual reality character.
+LimboVR takes the user's webcam feed using opencv and uses mediapipe to map the user's body out with a skeletal rig. Using an advanced google machine learning model it uses pose estimation to smoothly translate the 2 dimensional camera movements into 3d fully tracked body movements. It then uses the tracked position of the mapped skeletal rig and maps it to your in-game virtual reality character.
 
 Using the VRChat OSC it will translate your fullbody movements smoothly onto any avatar. There is also a plan to use OpenVR drivers to make this project compatible with any SteamVR game with FBT features as well.
 
@@ -30,9 +34,11 @@ Frameworks:
 
 # How to run:
 
-This project is a work in progress.  It currently runs. Not in any way it is supposed to, but by all technicality it is functional. However, I do reccomend waiting for the finished product. Because as of current, upon testing my avatar looks like spaghetti and while calibrating stands a frightening, tiny, upside-down ping pong man. (Update: The frightening, tiny, upside-down, ping pong man is no longer upside-down. Now he is just frightening and tiny.)  
+This project is a work in progress. It currently runs, but is still in alpha and has none of the compatibility features I would like.  
 
 # Update log:
+
+* 10/20/2026: Renamed project to a better sounding name and important progress update announcement.
 
 * 7/29/2026: Attempted to find settings that match the scale of the players body, the tracking points, and the players avatar. So far... very unsuccessful. 
 
