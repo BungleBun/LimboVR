@@ -27,9 +27,8 @@ Libraries:
     -Numpy
     -Time
     -Python-OSC
-    -TBD
-
-Frameworks:
+    -PyQt
+    -Sys
     -TBD
 
 # How to run:
@@ -37,6 +36,8 @@ Frameworks:
 This project is a work in progress. It currently runs, but is still in alpha and has none of the compatibility features I would like.  
 
 # Update log:
+
+* 11/1/2026: Created gui.py file to create a window to display front end of program and also fixed some issues with git.
 
 * 10/20/2026: Renamed project to a better sounding name and important progress update announcement.
 
